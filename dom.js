@@ -1,7 +1,7 @@
 // rr
 console.log("Rrrr DOM3 js...:")
 
-function button1Click(){
+function buttonClick1(){
   console.log("button 1 OOO")
 
 }
