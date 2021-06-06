@@ -8,7 +8,7 @@
     <title>Document rr DOM 3</title>
 </head>     <!--   -->
 <body>
-  <H5>DOM3</H5>
+  <H5>DOM3 Jo</H5>
 
   <header id="main-header" class="bg-success text-white p-4 mb-3">
     <div class="container">
@@ -17,7 +17,7 @@
   </header>
 
   <div class="container">
-   <div id="main" class="card card-body">
+   <div id="main" class="rrcard card-body">
     <h2 class="title">Add Items (main)</h2>
     <form class="form-inline mb-3">
       <input type="text" class="form-control mr-2">
@@ -41,12 +41,23 @@
     <!-- Emmet: szybki button:
     button.btn.btn-dark#button
     -->
+    <style>
+      .rr1{
+        border :5px solid rgb(121, 121, 121); 
+        width:30%;
+        background-color: blue;
+       }
+      </style>
+
     <button onclick="alert('BUM!!!')" class="btn btn-dark btn-block" id="button0">Rr Click HERE - alert</button>
 
     <button onclick="buttonClick0a()" class="btn btn-dark btn-block" id="button0a">Rr Click HERE - onClick</button>
     
-    <button class="btn btn-dark btn-block" id="button1">Rr Click button1 HERE</button>
-
+    <button class="btn btn-dark rr1" id="button1">Rr Click button1 HERE</button>
+    <button class="btn btn-dark rr1" id="button2">Rr button2 HERE</button>
+    <button class="btn btn-dark rr1" id="button3">Rr button3 HERE</button>
+    <button class="btn btn-dark rr1" id="button4">Rr button4 HERE</button>
+    
     <div id="output"></div>  
     <div id="output2"></div>
 
